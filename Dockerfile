@@ -26,5 +26,7 @@ run bower install  --allow-root
 run npm install
 run gulp
 
+RUN ls
+
 EXPOSE 80 443
 CMD ["nginx", "-g", "daemon off;"]
